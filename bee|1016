@@ -1,0 +1,5 @@
+entrada = int(input())
+
+distancia = entrada * 2
+
+print(f"{distancia} minutos")
