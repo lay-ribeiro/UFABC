@@ -1,0 +1,8 @@
+#Entrada 
+r = float(input())
+
+#Calculo
+v = (4/3) * 3.14159 * r**3
+
+#Saida
+print(f"VOLUME = {v:.3f}")
