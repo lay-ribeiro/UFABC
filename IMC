@@ -1,0 +1,17 @@
+def risco_cardiaco(idade: int, imc: float) -> str:
+  if idade < 45:
+    if imc < 22:
+      risco = "baixo"
+    else:
+      risco = "médio"
+  else:
+    if imc < 22:
+      risco = "médio"
+    else:
+      risco = "alto"
+  return risco
+
+idade = int(input())
+imc = float(input())
+risco = risco_cardiaco(idade, imc)
+print(risco)
