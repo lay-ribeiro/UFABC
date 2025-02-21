@@ -1,0 +1,16 @@
+def atribuir_conceito(nota: float) -> str:
+  
+  if (nota >= 9):
+    return "A"
+  elif (nota >= 7.5):
+    return "B"
+  elif (nota >= 6):
+    return "C"
+  elif (nota >= 5):
+    return "D"
+  else:
+    return "F"
+
+nota = float(input())
+conceito = atribuir_conceito(nota)
+print(conceito)
