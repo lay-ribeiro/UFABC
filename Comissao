@@ -1,0 +1,7 @@
+nome = input()
+salario = float(input())
+vendas = float(input())
+
+bonus = salario + (vendas * 0.05)
+
+print(f"{nome} deve receber R$ {bonus:.2f}")
