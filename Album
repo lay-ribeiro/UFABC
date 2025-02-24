@@ -1,0 +1,16 @@
+def sugestao_album(idade: int) -> str:
+  if idade <= 12:
+    sugestao = "Você pode curtir o álbum 'Disney Hits'!"
+  elif idade <= 18:
+    sugestao = "Confira o álbum 'Billie Eilish - Happier Than Ever'!"
+  elif idade <= 30:
+    sugestao = "Você pode se identificar com o álbum 'Taylor Swift - Folklore'!"
+  elif idade <= 40:
+    sugestao = "Você pode gostar do álbum 'Ed Sheeran - Divide'!"
+  else:
+    sugestao = "Você pode apreciar o álbum 'The Beatles - Abbey Road'!"
+  return sugestao
+
+idade = int(input())
+sugestao = sugestao_album(idade)
+print(sugestao)
