@@ -1,0 +1,20 @@
+# Definindo a função fatorial (denominador)
+
+def fatorial(n: int) -> int:
+  produto = 1
+  while n > 0:
+    produto = produto * n
+    n = n-1
+  return produto
+
+# Definindo o cálculo do número de Euler (e = 1/0! + 1/1!...)
+
+def euler(termos: int) -> float:
+  soma = 0
+  i = 0
+  while i < termos:
+    soma = soma + 1/fatorial(i)
+    i = i + 1
+  return soma
+
+print(euler(5))
