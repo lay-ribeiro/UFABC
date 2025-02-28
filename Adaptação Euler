@@ -1,0 +1,18 @@
+# Implemente essa nova somatoria mas considerando todos os termos maiores ou iguais a 0.0000001
+
+def fatorial(n: int) -> int:
+  produto = 1
+  while n > 0:
+    produto = produto * n
+    n = n-1
+  return produto
+
+def euler() -> float:
+  soma = 0
+  i = 0
+  while 1/fatorial(i) >= 0.0000001:
+      soma = soma + 1/fatorial(i)
+      i = i + 1
+  return soma
+
+print(euler())
