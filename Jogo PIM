@@ -1,0 +1,15 @@
+def jogo_pim(n: int):
+  count = 0
+  i = 1
+
+  while count < n:
+    if i % 4 == 0:
+      print("PIM")
+      count += 1
+    else:
+      print(i, end=" ")
+    i += 1
+
+n = int(input())
+
+jogo_pim(n)
