@@ -1,0 +1,12 @@
+# Definindo funçao
+def ASCII(n: int):
+  i = 1 #contador
+  while i <= n:
+    print("*" * i)
+    i += 1
+
+# Entrada Usuario
+n = int(input())
+
+# Chamando funçao
+ASCII(n)
