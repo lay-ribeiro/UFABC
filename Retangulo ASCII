@@ -1,0 +1,25 @@
+# Definindo funçao
+def bordas_retangulo(l: int, c: int):
+  if c == 1:
+    # quando c é 1, imprimimos uma coluna de asteriscos
+    for i in range(l):
+      print("*")
+    return # saimos da função após a impressão da coluna
+
+  # borda superior
+  print("*" * c)
+
+  # bordas laterais
+  for _ in range(l-2):
+    print("*" + " " * (c-2) + "*")
+
+  # borda inferior
+  if l > 1:
+    print ("*" * c)
+
+# Entrada do usuario
+l = int(input())
+c = int(input())
+
+# Chamando funçao
+bordas_retangulo(l, c)
