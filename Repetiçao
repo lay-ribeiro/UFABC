@@ -1,0 +1,11 @@
+#definindo a funçao
+def bart(n: int, f: str):
+  for i in range(n):
+    print(f)
+
+#entrada do usuario
+n = int(input())
+f = input()
+
+#chamando a funçao
+bart(n, f)
