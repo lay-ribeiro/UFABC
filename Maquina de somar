@@ -1,0 +1,16 @@
+# Definindo funçao
+def maquina_soma(n: int) -> float:
+  soma = 0.0
+  for _ in range (n):
+    num = float(input())
+    soma += num
+  return soma
+
+# Entrada usuario
+n = int(input()) 
+
+# Chamando funçao
+total = maquina_soma(n)
+
+# Saida
+print(f"Total: {total:.2f}")
