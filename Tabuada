@@ -1,0 +1,14 @@
+#definindo a funçao
+def tabuada(n: int, m: int):
+  i = 0 # contador
+  while i <= m:
+    x = n * i
+    print(f'{n} x {i} = {x}')
+    i += 1
+
+#entrada do usuario
+n = int(input())
+m = int(input())
+
+#chamando a funçao
+tabuada(n, m)
