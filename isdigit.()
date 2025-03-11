@@ -1,0 +1,3 @@
+# Se toda sequencia de letras corresponde a um número, então devolve verdadeiro
+
+"12345".isdigit()
