@@ -1,0 +1,17 @@
+# definindo a função
+def codifica(frase: str) -> str:
+#inicializa uma string vazia para armazenar o resultado
+  S = "" 
+
+# loop percorre cada caracter da frase  
+  for i in range (0, len(frase)):
+    
+# Concatenação do caractere modificado à string S
+    S = S + chr(ord(frase[i])+3)
+  # ord(frase[i]) obtem o código ASCII do caractere
+  # +3 soma 3 ao código ASCII
+  # crh converte o novo código ASCII de volta para caractere
+  
+  return S
+
+print(codifica("abc"))
