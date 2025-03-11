@@ -1,0 +1,4 @@
+# Retorna o número de caracteres de uma string
+
+fruta = "banana"
+len(fruta)
