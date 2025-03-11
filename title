@@ -1,0 +1,5 @@
+# Devolve a string com as primeiras letras de cada palavra em maiúscula
+
+x = input()
+
+x.title()
