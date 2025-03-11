@@ -1,0 +1,5 @@
+# Permite substituir uma string por outra
+
+nome = "carla silva da costa"
+
+nome.replace("silva", "siqueira")
