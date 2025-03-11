@@ -1,0 +1,7 @@
+# A ideia é similar à função range
+# Os dois pontos indicam Inicio:Fim
+
+S = "Pedro, Paulo e Maria"
+print(S[0:5])
+print(S[7:12])
+print(S[7:])
