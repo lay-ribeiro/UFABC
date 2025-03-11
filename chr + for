@@ -1,0 +1,4 @@
+# Exemplo com FOR
+
+for i in range(0,3000):
+  print(chr(i), end=" ")
