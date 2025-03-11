@@ -1,0 +1,5 @@
+# Devolve a string com todas as letras em minúsculo
+
+x = input()
+
+x.lower()
