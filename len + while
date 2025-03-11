@@ -1,0 +1,8 @@
+# Exemplo com WHILE
+
+frase = input()
+
+i = 0
+while i < len(frase):
+  print(frase[i], ord(frase[i]))
+  i = i + 1
