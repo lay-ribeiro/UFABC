@@ -1,0 +1,5 @@
+# Devolve a string com todas as letras em maiúscula
+
+x = input()
+
+x.upper()
