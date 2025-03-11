@@ -1,0 +1,8 @@
+#Oposto da função ord
+
+#Recebe um número inteiro e retorna o caractere correspondente
+
+codigo = 65
+letra = chr(codigo)
+
+print(f"O caractere correspondente a '{codigo}' é '{letra}'")
