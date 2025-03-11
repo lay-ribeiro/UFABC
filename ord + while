@@ -1,0 +1,7 @@
+# Exemplo com WHILE
+
+while True:
+  letra = input()[0]
+  print ("Código:", ord(letra))
+  if letra == '0':
+    break
