@@ -1,0 +1,7 @@
+# Permite eliminar espaços nas bordas
+
+nome = " carlos roberto da costa   "
+
+nome.strip()
+nome.rstrip() #elimina espaços da direita
+nome.lstrip() #elimina espaços da esquerda
