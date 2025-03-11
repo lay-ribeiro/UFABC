@@ -1,0 +1,6 @@
+#Devolve o código unicode (número inteiro) correspondente a um caractere
+
+letra = 'A'
+codigo = ord(letra)
+
+print(f"O código Unicode de '{letra}' é {codigo}")
